@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/design.css">
+        <script src="../JS/script.js"></script>
+    </head>
+    <body>
+
+       
+
+         <header >
+             <div class="divheader">
+                 <h1>Café da manhã</h1>
+             </div>
+             
+         </header>
+            <div id ="formulario" class="container">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Informe seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="number" class="form-control" id="cpf" placeholder="Informe seu CPF">
+                </div>
+
+                <div class="form-group">
+                    <label for="alimento">Alimento</label>
+                    <input type="text" class="form-control" id="alimento" placeholder="Informe o alimento">    
+                </div>
+                <div class="form-group mt-3">
+                    <button class="btn btn-primary " onclick="adicionarAlimento()" >Adicionar Alimento</button>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <table id="table" class="table ">
+                            <thead id="tablehead">
+                                <tr>
+                                    <th>
+                                        Alimentos
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <a href="index.html" class="btn btn-danger">Cancelar</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <button class="btn btn-success" onclick="salvar()">Salvar</button>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">                     //Consigo chamar qualquer função do script aqui, e tambem consigo criar qualquer função
+                starting();
+            </script>
+
+    </body>
+</html>

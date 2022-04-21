@@ -1,0 +1,25 @@
+#id{
+    text-align: center;
+}
+#header{
+    background-color: #4287f5;
+    padding-bottom: 20px;
+    text-align: center;
+ 
+}
+.container{
+    background-color: #fff;
+    border-radius: 25px;
+    padding:30px;
+ 
+}
+body{
+    background-color: #4287f5;
+}
+
+.divheader{
+    font-size: 50px;
+    font-style:oblique;
+    color:white;
+    text-align: center;
+}
